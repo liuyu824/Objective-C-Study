@@ -66,13 +66,13 @@ int main(int argc, const char * argv[]) {
 3. 增强：同一个文件，无论import多少次，只会包含一次；如果#include指令要实现这个效果，就必须要配合条件编译指令来实现，而#import指令只需要直接包含即可。
 4. 简要原理：#import指令在包含文件时，底层会先判断这个文件是否被包含。
 
-
-
 #### 8. Foundation框架
 
-a. 是一个功能集合，苹果或者第三方事先将开发时经常用到的功能事先写好这些函数和类的集合，就叫做框架。
+- 是一个功能集合，苹果或者第三方事先将开发时经常用到的功能事先写好这些函数和类的集合，就叫做框架。
 
- b. Foundation框架，提供了最基础的功能，如：输入、输出、一些数据类型。Foundation：基础、基本，包含了Foundation.h 就相当于包含了foundation框架中All头文件。
+
+- Foundation框架，提供了最基础的功能，如：输入、输出、一些数据类型。Foundation：基础、基本，包含了Foundation.h 就相当于包含了foundation框架中All头文件。
+
 
 
 
