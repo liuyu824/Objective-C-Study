@@ -85,9 +85,7 @@ int main(int argc, const char * argv[]) {
 
   	a. 作用：是printf函数的增强版，向控制台输出信息。
 
-  	b. 语法：NSLog(@"格式控制字符串"，变量列表)
-
-​    	      最简单的语法：NSLog(@"要输出的信息")
+  	b. 语法：NSLog(@"格式控制字符串"，变量列表)，最简单的语法：NSLog(@"要输出的信息")
 
   	c. 增强：
 
