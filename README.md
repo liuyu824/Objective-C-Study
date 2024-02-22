@@ -110,7 +110,8 @@ int main(int argc, const char * argv[]) {
 - OC中设计了1个更为好用的用来存储字符串的1个类型: NSString。
   - NSString 类型的指针变量 专门用来存储OC字符串的地址
 
-- OC字符串常量必须要使用1个前缀 @符号："jack" 这是一个C语言的字符串。
+- OC字符串常量必须要使用1个前缀 @符号：
+  - "jack" 这是一个C语言的字符串。
   -  @"jack" 这是一个OC的字符串常量
 
 
