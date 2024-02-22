@@ -394,7 +394,7 @@ int main(int argc, const char * argv[]) {
 ```objc
 对象名 -> 属性名 = 值；
 Person *person0  = [Person new];
-person0->_name   = @"你爸爸";
+person0->_name   = @"";
 person0->_age    = 26;
 person0->_height = 181.5f;
 NSLog(@"----------");
@@ -521,7 +521,7 @@ OC的类具有的行为，我们用方法来表示，方法和函数都表示1�
 
        ```objc
        // 代码中创建对象，调用方法
-       [person1 eat:@"屎"];
+       [person1 eat:@""];
        ```
 
 3. 带多个参数的方法
