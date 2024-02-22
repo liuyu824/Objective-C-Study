@@ -117,18 +117,15 @@ int main(int argc, const char * argv[]) {
 
 #### 11. NS前缀和@符号
 
-(1) NextStep -> cocoa -> NS前缀
-
-(2) @符号
-
-​	a. 将c语言字符串 转换为 oc语言字符串
+- NextStep -> cocoa -> NS前缀
+- @符号
+  - 将c语言字符串 转换为 oc语言字符串
+  - OC中绝大部分关键字都是以@符号开头。
 
  ```objc
  "jack";  //c语言字符串
  @"jack"; //oc语言字符串
  ```
-
-​	b. OC中绝大部分关键字都是以@符号开头。
 
 
 
