@@ -4,19 +4,18 @@
 
 #### 1. Objective-C概述
 
-​      Objective-C简称Obj-C或OC，面向对象的C语言
+- Objective-C简称Obj-C或OC，面向对象的C语言
+
 
 
 
 #### 2. OC简要发展历史
 
-​      C语言优势，NextStep改命Cocoa，
+- C语言优势，NextStep改命Cocoa，2014年WWDC大会推出Swift，面向对象语法，如果选择cocoa Application，就是选择开发了一个带界面的程序。
 
-​      2014年WWDC大会推出Swift，面向对象语法，
 
-​      如果选择cocoa Application，就是选择开发了一个带界面的程序。
+- OC源文件后缀名为.m
 
-​      OC源文件后缀名为.m
 
 
 
