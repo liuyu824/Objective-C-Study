@@ -408,7 +408,7 @@ NSLog(@"person0的身高是：%f",person0->_height);
 ```objc
 (*对象名).属性名，平时尽量使用箭头；
 Person *person1 = [Person new];
-(*person1)._name = @"always爸爸";
+(*person1)._name = @"刘宇";
 (*person1)._age = 18;
 (*person1)._height = 179;
 ```
@@ -477,7 +477,7 @@ OC的类具有的行为，我们用方法来表示，方法和函数都表示1�
 
        ```objc
        Person *person1 = [Person new];
-       (*person1)._name = @"always爸爸";
+       (*person1)._name = @"刘宇";
        (*person1)._age = 18;
        (*person1)._height = 179;
        [person1 run];
