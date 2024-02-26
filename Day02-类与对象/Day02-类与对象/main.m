@@ -33,6 +33,10 @@ int main(int argc, const char * argv[]) {
         iPhone *iPhone15pm = [iPhone new];
         iPhone15pm->_phoneNum = @"13611244680";
         [iPhone15pm callWithNumber];
+        
+        iPhone *iPhone14Pro = nil;
+        iPhone14Pro->_phoneNum = @"13726284740";
+        [iPhone14Pro callWithNumber];
     }
     return 0;
 }

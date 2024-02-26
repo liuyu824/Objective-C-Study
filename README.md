@@ -697,6 +697,16 @@ iPhone15pm->isa
   - C语言指针用NULL：int *p1 = NULL
   - OC语言指针用nil
 
+- 如果一个类指针的值为nil，那么代表这个类指针不指向任何对象
+
+  - ```objc
+    iPhone *iPhone14Pro = nil;
+    iPhone14Pro->_phoneNum = @"13726284740";
+    [iPhone14Pro callWithNumber];
+    ```
+
+  - 报错：Thread 1: EXC_BAD_ACCESS (code=1, address=0x8)；
+
 #### 5. 多个指针指向同1个对象
 
 
