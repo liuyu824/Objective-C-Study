@@ -11,6 +11,7 @@
 {
     @public
     NSString *_phoneNum;
+    NSString *_phoneBelonged;
 }
 
 -(void)callWithNumber;
