@@ -1,4 +1,4 @@
-## iOS开发Objective-C语言学习笔记
+## iOS开发Objective-C语言笔记
 
 ### Day01 Objective-C基础语法
 
@@ -719,7 +719,7 @@ iPhone15pm->isa
 
 
 
-#### 8. 都是你的错
+#### 8. 
 
 
 
