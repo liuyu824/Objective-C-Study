@@ -37,6 +37,13 @@ int main(int argc, const char * argv[]) {
         iPhone *iPhone14Pro = nil;
         iPhone14Pro->_phoneNum = @"13726284740";
         [iPhone14Pro callWithNumber];
+        
+        NSLog(@"--------------------");
+        testTest();
     }
     return 0;
+}
+
+void testTest(){
+    NSLog(@"testTestTest");
 }
