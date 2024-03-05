@@ -15,14 +15,13 @@
 }
 
 -(void)callWithNumber;
-
+void testTest();
 @end
 
 @implementation iPhone
 -(void)callWithNumber{
     NSLog(@"I make a phone call by %@" , _phoneNum);
 }
-
 @end
 
 int main(int argc, const char * argv[]) {
@@ -35,15 +34,17 @@ int main(int argc, const char * argv[]) {
         [iPhone15pm callWithNumber];
         
         iPhone *iPhone14Pro = nil;
-        iPhone14Pro->_phoneNum = @"13726284740";
-        [iPhone14Pro callWithNumber];
+//        iPhone14Pro->_phoneNum = @"13726284740";
+//        [iPhone14Pro callWithNumber];
         
         NSLog(@"--------------------");
         testTest();
     }
+    
     return 0;
 }
 
 void testTest(){
     NSLog(@"testTestTest");
+    NSLog(@"NumberSecondTestTest");
 }
