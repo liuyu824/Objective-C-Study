@@ -15,7 +15,7 @@
 }
 
 -(void)callWithNumber;
-void testTest();
+//void testTest();
 @end
 
 @implementation iPhone
@@ -23,6 +23,11 @@ void testTest();
     NSLog(@"I make a phone call by %@" , _phoneNum);
 }
 @end
+
+void testTest(void){
+    NSLog(@"testTestTest");
+    NSLog(@"NumberSecondTestTest");
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -44,7 +49,4 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-void testTest(){
-    NSLog(@"testTestTest");
-    NSLog(@"NumberSecondTestTest");
-}
+
